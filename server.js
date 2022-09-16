@@ -12,7 +12,7 @@ const hostname = process.env.HOSTNAME;
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World ... This is CIO Training Class ...! ... Response from Host: ' + hostname);
+  res.send('Hello World ... This is Priyanshu Singh ...! ... Response from Host: ' + hostname);
 });
 
 app.listen(PORT, HOST);
